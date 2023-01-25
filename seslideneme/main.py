@@ -336,7 +336,7 @@ def asistan(command):
             mail = smtplib.SMTP("smtp.gmail.com", 587)
             mail.ehlo()
             mail.starttls()
-            mail.login("teknofest6@gmail.com", "Aa12345678a")
+            mail.login("asd@gmail.com", "pass")
             mail.sendmail("Taha","0tahasahin@gmail.com",content)
             mail.close()
 
@@ -350,8 +350,8 @@ def asistan(command):
             mail = smtplib.SMTP("smtp.gmail.com",587)
             mail.ehlo()
             mail.starttls()
-            mail.login("teknofest6@gmail.com", "Aa12345678a")
-            mail.sendmail("Ziya Akhan", "ziyaakhan29@gmail.com",content)
+            mail.login("asd@gmail.com", "pass")
+            mail.sendmail("name", "name@gmail.com",content)
             mail.close()
 
             konus("Posta gönderildi")
