@@ -21,7 +21,6 @@ import pygame
 harfBuyuk = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ"
 kucuk = "abcçdefgğhıijklmnoöprsştuüvyz"
 
-
 def lower(command:str):
     newText = str()
     for i in command:
