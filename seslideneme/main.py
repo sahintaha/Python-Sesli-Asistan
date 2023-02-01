@@ -271,7 +271,6 @@ def asistan(command):
         if "hayır" in cevap2:
             konus("Tamam, işlemi iptal ediyorum")
 
-
     elif command in nasilsincumeleleri:
         msg = donus
         konus(random.choice(msg))
@@ -283,7 +282,6 @@ def asistan(command):
     elif command in gun:
         strDay = datetime.datetime.now().strftime("%B %d %A")
         konus(f"Bugün günlerden {strDay} ")
-
 
     elif command in arstr:
         outputList = []
@@ -310,10 +308,8 @@ def asistan(command):
         konus("Hava sıcaklığı " + str(a) + " derece")
         konus("Rüzgar " + str(wind["speed"]) + " kilometre hızında")
         konus("Nem oranı ise %" + str(h))
-
-
-##---------------------çeviri-----------##
-
+        
+    ##translate
     elif "çevir" in command or "çeviri" in command or "çevirsene" in command:
         konus("Lütfen çevireceğim kelimeyi söyleyin")
         cevi = komutlar()
@@ -321,8 +317,6 @@ def asistan(command):
         command = cevi.replace("cevi", "")
         translated = translator.translate(command,src = "tr", dest = "en")
         konus("Söylediğiniz kelimenin ingilizcede karşığılı " + str(translated.text))
-
-##-------------------------------##
 
     elif command in e_mail:
         konus("Alıcı kim?")
