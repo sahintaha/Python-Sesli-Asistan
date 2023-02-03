@@ -339,7 +339,6 @@ def asistan(command):
 
             konus("Ne yazmalıyım?")
             content = komutlar()
-
             mail = smtplib.SMTP("smtp.gmail.com",587)
             mail.ehlo()
             mail.starttls()
