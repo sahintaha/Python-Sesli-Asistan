@@ -121,8 +121,8 @@ yttube = ["youtube","aç youtube","youtube aç","you tube","aç you tube","you t
 srki_ytbe = ["şarkı aç","aç şarkı","youtube ile şarkı aç","you tube ile şarkı aç"]
 arstr = ["araştır","google ile araştır","google araştır","wikipedia","wikipedia ile araştır","internette ara","ara"]
 
-#-----------------------
-#-----------------------
+#---------------------
+#---------------------
 
 def asistan(command):
 
