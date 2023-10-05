@@ -13,7 +13,7 @@ import datetime
 import time
 import random
 import psutil
-import pyowm #hava
+import pyowm #havaa
 from googletrans import Translator
 from pydub.playback import play
 import pygame
